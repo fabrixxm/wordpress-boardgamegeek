@@ -1,0 +1,55 @@
+.bgg-error {
+    padding: 1em;
+    background-color: #414141
+    color: #fff;
+}
+.bgg.bgg-container {
+    display: flex;
+    background-color: #222;
+    color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+.bgg .bgg-thumb {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.bgg .bgg-data {
+    margin-left: 1em;
+    margin-right: 1em;
+    flex-grow: 2;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.entry-content .bgg a { 
+    border: 0;
+    box-shadow: none;
+    transition: none;
+    color: #fff;
+    text-decoration: none;
+}
+.entry-content .bgg a:active, 
+.entry-content .bgg a:hover { 
+    border: 0;
+    box-shadow: none;
+    transition: none;
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.bgg h1 span { font-size: 0.5em; }
+
+.bgg .bgg-details {
+    display: flex;
+}
+
+.bgg .bgg-details > div {
+    flex: auto;
+    text-align: center;
+    border-right: 1px solid #414141; 
+}
+.bgg .bgg-details > div:last-child { border: 0;}

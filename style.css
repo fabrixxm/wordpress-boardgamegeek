@@ -41,15 +41,20 @@
     text-decoration: underline;
 }
 
+.bgg h1 { margin: 0; }
 .bgg h1 span { font-size: 0.5em; }
 
 .bgg .bgg-details {
-    display: flex;
+  display: flex;
+  margin:0; padding:0;
 }
 
-.bgg .bgg-details > div {
-    flex: auto;
-    text-align: center;
-    border-right: 1px solid #414141; 
+.bgg .bgg-details > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex: auto;
+  text-align: center;
+  border-right: 1px solid #414141; 
 }
 .bgg .bgg-details > div:last-child { border: 0;}

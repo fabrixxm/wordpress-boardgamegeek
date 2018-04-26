@@ -10,7 +10,8 @@
     border-bottom: 2px solid #ccc;
 }
 .bgg .bgg-thumb {
-    width: 150px;
+    min-width: 150px;
+    min-height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
